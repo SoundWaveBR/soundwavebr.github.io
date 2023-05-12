@@ -51,3 +51,13 @@ h1 {
 	text-shadow: 2px 2px #ffd1dc;
 	margin-top: 10px;
 }
+
+.diff {
+	background-color: #ffffff;
+	border: 2px solid #555;
+	box-shadow: 0 0 10px #555;
+}
+
+.diff p {
+	font-family: Quicksand;
+}
