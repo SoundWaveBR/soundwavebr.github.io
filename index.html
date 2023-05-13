@@ -7,7 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Escolha de Alianças</title>
 	<link rel="stylesheet" href="css/Escolha.css">
-	<script src="js/alianca.js"></script>	
+	<link rel="stylesheet" href="css/overlay.css">
+	<script src="javascript/overlay.js"></script>
+
 </head>
 
 <body>
@@ -15,9 +17,15 @@
 	<h4>A última foi minha preferida</h4>
 	<div class="container">
 		<div class="box">
-			<a href="https://virtualjoias.com/aliancas-namoro-prata-diamantada-e-polida-2-5mm-6g-vj10577">
-				<img src="IMAGENS//alianca1/Opcao1_0.jpg"></a>
-			<p>Alianças Namoro Prata Diamantada e Polida 2,5mm 6g</p>
+			<a href="https://virtualjoias.com/aliancas-namoro-prata-diamantada-e-polida-2-5mm-6g-vj10577" class="overlay-trigger">
+				<img src="IMAGENS//alianca1/Opcao1_0.jpg" class="overlay">
+			<p>Alianças Namoro Prata Diamantada e Polida 2,5mm 6g</p></a>
+			<div class="product-overlay">
+				<img src="IMAGENS//alianca1/Opcao1_0.jpg">
+   				 <p class="product-description">Alianças Namoro Prata Diamantada e Polida 2,5mm 6g</p>
+			    <p>Descrição:</p>
+				<p>Esta linda aliança de namoro é feita em prata diamantada e polida, tem 2,5mm de largura e pesa 6g. Ela é perfeita para casais que procuram um design simples e elegante para representar seu amor.</p>
+			</div>
 		</div>
 		<div class="box">
 			<a href="https://virtualjoias.com/aliancas-namoro-prata-polidas-2mm-3g-vj8717"><img
@@ -41,17 +49,9 @@
 		</div>
 	</div>
 
-	<div id="myModal" class="modal">
-		<div class="modal-content">
-			<span class="close">&times;</span>
-			<div class="descriptin-container">
-				<p id="modal-description"></p>
-			</div>
-		</div>
-	</div>
+	<footer>
+		<p>© Mareson Libório 2023 - Todos os direitos reservados</p>
+	  </footer>
 
 </body>
-<footer>
-    <p>© Mareson Libório 2023 - Todos os direitos reservados</p>
-  </footer>
 </html>
